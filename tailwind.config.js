@@ -6,21 +6,21 @@ module.exports = {
       keyframes: {
         blob: {
           "0%": {
-            transform: "scale(1)"
+            transform: "translate(0px, 0px) scale(1)"
           },
           "33%": {
-            transform: "scale(1.2)"
+            transform: "translate(30px, -50px) scale(1.2)"
           },
           "66%": {
-            transform: "scale(0.8)"
+            transform: "translate(20px, -20px) scale(0.8)"
           },
           "100%": {
-            transform: "scale(1)"
+            transform: "translate(0px, 0px) scale(1)"
           },
         },
       },
       animation: {
-        blob: "blob 4s infinite"
+        blob: "blob 7s infinite"
       },
     },
   },

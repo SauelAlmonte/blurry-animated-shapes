@@ -31177,37 +31177,37 @@ Custom CSS
 
 @-webkit-keyframes blob {
   0% {
-    transform: scale(1);
+    transform: translate(0px, 0px) scale(1);
   }
 
   33% {
-    transform: scale(1.2);
+    transform: translate(30px, -50px) scale(1.2);
   }
 
   66% {
-    transform: scale(0.8);
+    transform: translate(20px, -20px) scale(0.8);
   }
 
   100% {
-    transform: scale(1);
+    transform: translate(0px, 0px) scale(1);
   }
 }
 
 @keyframes blob {
   0% {
-    transform: scale(1);
+    transform: translate(0px, 0px) scale(1);
   }
 
   33% {
-    transform: scale(1.2);
+    transform: translate(30px, -50px) scale(1.2);
   }
 
   66% {
-    transform: scale(0.8);
+    transform: translate(20px, -20px) scale(0.8);
   }
 
   100% {
-    transform: scale(1);
+    transform: translate(0px, 0px) scale(1);
   }
 }
 
@@ -31237,8 +31237,8 @@ Custom CSS
 }
 
 .animate-blob {
-  -webkit-animation: blob 4s infinite;
-          animation: blob 4s infinite;
+  -webkit-animation: blob 7s infinite;
+          animation: blob 7s infinite;
 }
 
 .mix-blend-normal {
@@ -62444,8 +62444,8 @@ Custom CSS
   }
 
   .sm\:animate-blob {
-    -webkit-animation: blob 4s infinite;
-            animation: blob 4s infinite;
+    -webkit-animation: blob 7s infinite;
+            animation: blob 7s infinite;
   }
 
   .sm\:mix-blend-normal {
@@ -93560,8 +93560,8 @@ Custom CSS
   }
 
   .md\:animate-blob {
-    -webkit-animation: blob 4s infinite;
-            animation: blob 4s infinite;
+    -webkit-animation: blob 7s infinite;
+            animation: blob 7s infinite;
   }
 
   .md\:mix-blend-normal {
@@ -124676,8 +124676,8 @@ Custom CSS
   }
 
   .lg\:animate-blob {
-    -webkit-animation: blob 4s infinite;
-            animation: blob 4s infinite;
+    -webkit-animation: blob 7s infinite;
+            animation: blob 7s infinite;
   }
 
   .lg\:mix-blend-normal {
@@ -155792,8 +155792,8 @@ Custom CSS
   }
 
   .xl\:animate-blob {
-    -webkit-animation: blob 4s infinite;
-            animation: blob 4s infinite;
+    -webkit-animation: blob 7s infinite;
+            animation: blob 7s infinite;
   }
 
   .xl\:mix-blend-normal {
@@ -186908,8 +186908,8 @@ Custom CSS
   }
 
   .\32xl\:animate-blob {
-    -webkit-animation: blob 4s infinite;
-            animation: blob 4s infinite;
+    -webkit-animation: blob 7s infinite;
+            animation: blob 7s infinite;
   }
 
   .\32xl\:mix-blend-normal {

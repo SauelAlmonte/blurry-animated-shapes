@@ -3,8 +3,13 @@
     "live-server": "^1.2.1"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.4"
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+
+  },
+  "scripts": {
+    "dev" : "live-server .",
+    "tw" : "tailwindcss build ./src/tailwind.css -o ./dist/styles.css"
   }
 }

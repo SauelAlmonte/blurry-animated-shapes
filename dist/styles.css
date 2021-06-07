@@ -31877,6 +31877,16 @@ Custom CSS
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.animation-delay-2000 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
